@@ -1,0 +1,44 @@
+# Dependency directories
+node_modules/
+backend/target/
+backend/.maven/
+.maven/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+frontend/dist/
+target/
+dist/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Maven
+*.class
+*.log
+.mtj.tmp/
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Node/Vite specific
+.eslintcache
+.stylelintcache
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
