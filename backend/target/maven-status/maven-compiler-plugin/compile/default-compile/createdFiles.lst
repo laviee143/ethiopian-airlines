@@ -1,5 +1,5 @@
-com\ethiopianairlines\data\FlightData.class
-com\ethiopianairlines\servlet\BookingServlet.class
 com\ethiopianairlines\model\Flight.class
 com\ethiopianairlines\filter\CorsFilter.class
+com\ethiopianairlines\data\FlightData.class
+com\ethiopianairlines\servlet\BookingServlet.class
 com\ethiopianairlines\servlet\FlightSearchServlet.class
