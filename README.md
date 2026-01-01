@@ -49,12 +49,3 @@ npm run dev
 2.  **Search**: Try searching from **ADD** (Addis Ababa) to **NBO** (Nairobi).
 3.  **Book**: Select a flight and complete the booking form.
 
-## 📂 Project Structure
-
-/assignment
-├── backend/          # Java Servlet Backend
-│   ├── src/          # Source code
-│   └── pom.xml       # Maven configuration
-└── frontend/         # React Frontend
-    ├── src/          # React components
-    └── package.json  # NPM configuration
