@@ -30,15 +30,19 @@ public class FlightData {
                 .filter(f -> f.getOrigin().equalsIgnoreCase(origin) && f.getDestination().equalsIgnoreCase(destination))
                 .collect(Collectors.toList());
     }
-    
+
     public List<Flight> getAllFlights() {
         return flights;
     }
-    
+
     public Flight getFlightById(String id) {
         return flights.stream()
                 .filter(f -> f.getId().equals(id))
                 .findFirst()
                 .orElse(null);
+    }
+
+    public void addFlight(Flight flight) {
+        flights.add(flight);
     }
 }
